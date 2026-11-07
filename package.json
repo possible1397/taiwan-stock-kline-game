@@ -1,0 +1,22 @@
+{
+  "name": "taiwan-stock-kline-game",
+  "version": "1.0.0",
+  "description": "台股K線修練場 - 猜漲跌股票訓練 App",
+  "main": "sw.js",
+  "scripts": {
+    "start:backend": "cd backend && python main.py",
+    "start:frontend": "python start_server.py",
+    "cap:sync": "npx cap sync",
+    "cap:android": "npx cap open android",
+    "cap:build:android": "npx cap sync android && cd android && .\\gradlew assembleRelease",
+    "cap:build:debug": "npx cap sync android && cd android && .\\gradlew assembleDebug"
+  },
+  "keywords": ["stock", "trading", "game", "taiwan", "kline"],
+  "author": "Taiwan Stock K-Line Trainer",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/android": "^8.3.4",
+    "@capacitor/cli": "^8.3.4",
+    "@capacitor/core": "^8.3.4"
+  }
+}

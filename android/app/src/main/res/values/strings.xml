@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">台股K線修練場</string>
+    <string name="title_activity_main">台股K線修練場</string>
+    <string name="package_name">com.klinetrainer.taiwan</string>
+    <string name="custom_url_scheme">com.klinetrainer.taiwan</string>
+</resources>

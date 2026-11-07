@@ -1,0 +1,36 @@
+# 相依套件
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 環境變數
+.env
+.env.*
+!.env.example
+
+# 資料庫與產生的資料（可由 scripts/ 重新抓取）
+*.db
+*.db-journal
+*.sqlite3
+backend/data/
+backend/*.db
+
+# Capacitor 同步產物（由 web 根目錄複製而來，不需版控）
+android/app/src/main/assets/public/
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/app/release/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# 編輯器 / 系統
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

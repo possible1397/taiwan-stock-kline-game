@@ -1,0 +1,32 @@
+{
+  "appId": "com.klinetrainer.taiwan",
+  "appName": "台股K線修練場",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": false,
+    "allowNavigation": [
+      "taiwan-stock-kline-game.up.railway.app",
+      "localhost:8000"
+    ]
+  },
+  "android": {
+    "buildOptions": {
+      "keystorePath": "release.keystore",
+      "keystoreAlias": "klinetrainer"
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "launchAutoHide": true,
+      "backgroundColor": "#0b0f19",
+      "androidSplashResourceName": "splash",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "Dark",
+      "backgroundColor": "#0b0f19"
+    }
+  }
+}
