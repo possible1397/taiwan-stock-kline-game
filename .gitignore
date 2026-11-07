@@ -17,7 +17,8 @@ venv/
 backend/data/
 backend/*.db
 
-# Capacitor 同步產物（由 web 根目錄複製而來，不需版控）
+# Capacitor 同步產物（由 build.sh 從根目錄複製而來，不需版控）
+www/
 android/app/src/main/assets/public/
 android/app/build/
 android/build/
